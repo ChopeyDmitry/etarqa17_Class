@@ -28,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="408">
               <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenFirefoxBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/LoginWikipediaChrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,6 +79,7 @@
         <option value="$PROJECT_DIR$/FirstSeleniumProject/build.gradle" />
         <option value="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java" />
         <option value="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenFirefoxBrowser.java" />
+        <option value="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/LoginWikipediaChrome.java" />
       </list>
     </option>
   </component>
@@ -82,8 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,17 +124,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548095086662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548343737814" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,23 +150,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.OpenFirefoxBrowser.testeBaySearch">
-    <configuration name="OpenChromeBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginWikipediaChrome">
+    <configuration name="LoginWikipediaChrome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstSeleniumProject_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenChromeBrowser" />
+      <option name="MAIN_CLASS_NAME" value="LoginWikipediaChrome" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenChromeBrowser.chromeBrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWikipediaChrome.LogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FirstSeleniumProject_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginWikipediaChrome" />
+      <option name="METHOD_NAME" value="LogIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenChromeBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FirstSeleniumProject_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OpenChromeBrowser" />
-      <option name="METHOD_NAME" value="chromeBrowserTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -184,10 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OpenFirefoxBrowser.testeBaySearch" />
+        <item itemvalue="TestNG.LoginWikipediaChrome" />
+        <item itemvalue="TestNG.LoginWikipediaChrome.LogIn" />
         <item itemvalue="TestNG.OpenFirefoxBrowser" />
-        <item itemvalue="TestNG.OpenChromeBrowser.chromeBrowserTest" />
         <item itemvalue="TestNG.OpenChromeBrowser" />
+        <item itemvalue="TestNG.OpenFirefoxBrowser.testeBaySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -204,13 +228,14 @@
       <workItem from="1547744342152" duration="4510000" />
       <workItem from="1548012441080" duration="1229000" />
       <workItem from="1548084537098" duration="817000" />
+      <workItem from="1548110157659" duration="1431000" />
+      <workItem from="1548191751751" duration="2089000" />
+      <workItem from="1548269436218" duration="1312000" />
+      <workItem from="1548343218628" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OpenChromeBrowser_chromeBrowserTest - 2019.01.21 at 18h 50m 15s.xml">
-      <configuration name="OpenChromeBrowser.chromeBrowserTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="OpenChromeBrowser - 2019.01.21 at 18h 52m 04s.xml">
       <configuration name="OpenChromeBrowser" configurationId="TestNG" />
     </history-entry>
@@ -235,15 +260,21 @@
     <history-entry file="OpenFirefoxBrowser_testeBaySearch - 2019.01.21 at 20h 20m 02s.xml">
       <configuration name="OpenFirefoxBrowser.testeBaySearch" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="OpenChromeBrowser - 2019.01.22 at 00h 49m 51s.xml">
+      <configuration name="OpenChromeBrowser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="OpenFirefoxBrowser - 2019.01.22 at 00h 50m 15s.xml">
+      <configuration name="OpenFirefoxBrowser" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11996000" />
+    <option name="totallyTimeSpent" value="17635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="115" y="99" width="335" height="706" id="Project" order="0" visible="true" weight="0.23825504" />
+      <window_info content_ui="combo" x="115" y="99" width="335" height="706" id="Project" order="0" visible="true" weight="0.25167784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -293,9 +324,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenFirefoxBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenChromeBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="408">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -303,10 +344,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/OpenFirefoxBrowser.java">
+    <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/LoginWikipediaChrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="460">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -365,7 +406,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>FirstSeleniumProject</last-edited>
+          <last-edited>FirstSeleniumProject_main|FirstSeleniumProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -378,6 +419,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
