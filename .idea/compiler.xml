@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="FirstSeleniumProject_main" target="1.8" />
       <module name="FirstSeleniumProject_test" target="1.8" />
+      <module name="HW.HomeWorks.main" target="1.8" />
+      <module name="HW.HomeWorks.test" target="1.8" />
       <module name="Qa17.secondSeleniumProject.main" target="1.8" />
       <module name="Qa17.secondSeleniumProject.test" target="1.8" />
     </bytecodeTargetLevel>
