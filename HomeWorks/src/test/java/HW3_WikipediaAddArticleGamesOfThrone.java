@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class HW_LoginWikipediaChrome {
+public class HW3_WikipediaAddArticleGamesOfThrone {
     WebDriver wd;
 
     @BeforeClass
@@ -24,6 +24,21 @@ public class HW_LoginWikipediaChrome {
         clickOnLoginButton();
         fillLoginForm("oropennyv4110", "oropennyv");
         clickConfirmButton();
+        search();
+
+
+    }
+
+    public void search() {
+        wd.findElement(By.name("search")).click();
+        wd.findElement(By.name("search")).clear();
+        wd.findElement(By.name("search")).sendKeys("Game of Thrones");
+        wd.findElement(By.
+
+    }
+
+    @AfterClass
+    public void tearDown(){
 
     }
 
@@ -51,12 +66,4 @@ public class HW_LoginWikipediaChrome {
     public void openSite(String url) {
         wd.get(url);
     }
-
-    @AfterClass
-    public void tearDown(){
-
-    }
-
-
 }
-
