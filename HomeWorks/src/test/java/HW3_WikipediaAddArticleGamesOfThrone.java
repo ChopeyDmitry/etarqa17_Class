@@ -24,10 +24,10 @@ public class HW3_WikipediaAddArticleGamesOfThrone {
         clickOnLoginButton();
         fillLoginForm("oropennyv4110", "oropennyv");
         clickConfirmButton();
-        search();
+        search("Game of Thrones");
         addToWatchlist();
     }
-    
+
     @AfterClass
     public void tearDown(){
 
@@ -65,10 +65,10 @@ public class HW3_WikipediaAddArticleGamesOfThrone {
 //        wd.findElement(By.id("ooui-php-3")).click();
     }
 
-    public void search() {
+    public void search(String search) {
         wd.findElement(By.name("search")).click();
         wd.findElement(By.name("search")).clear();
-        wd.findElement(By.name("search")).sendKeys("Game of Thrones");
+        wd.findElement(By.name("search")).sendKeys(search);
         wd.findElement(By.name("go")).click();
     }
 }
