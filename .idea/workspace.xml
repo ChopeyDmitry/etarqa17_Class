@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/LoginWikipediaChrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="260">
               <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,18 +61,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWorks/src/test/java/HW_LoginWikipediaChrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103">
+            <state relative-caret-position="440">
               <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,18 +73,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWorks/src/test/java/HW3_WikipediaAddArticleGamesOfThrone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="277">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1459#1460#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1839#1840#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,6 +124,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,13 +180,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548620374714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548689691446" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -301,20 +287,12 @@
       <workItem from="1548191751751" duration="2089000" />
       <workItem from="1548269436218" duration="1312000" />
       <workItem from="1548343218628" duration="6418000" />
-      <workItem from="1548398119638" duration="6781000" />
+      <workItem from="1548398119638" duration="7417000" />
+      <workItem from="1548689192682" duration="567000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HW_LoginWikipediaChrome - 2019.01.26 at 19h 18m 00s.xml">
-      <configuration name="HW_LoginWikipediaChrome" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HW_LoginWikipediaChrome - 2019.01.26 at 19h 18m 36s.xml">
-      <configuration name="HW_LoginWikipediaChrome" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginWikipediaChrome - 2019.01.26 at 19h 41m 41s.xml">
-      <configuration name="LoginWikipediaChrome" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HW_LoginWikipediaChrome - 2019.01.26 at 19h 43m 22s.xml">
       <configuration name="HW_LoginWikipediaChrome" configurationId="TestNG" />
     </history-entry>
@@ -336,15 +314,24 @@
     <history-entry file="HW3_WikipediaAddArticleGamesOfThrone - 2019.01.27 at 22h 18m 25s.xml">
       <configuration name="HW3_WikipediaAddArticleGamesOfThrone" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HW3_WikipediaAddArticleGamesOfThrone - 2019.01.28 at 17h 28m 50s.xml">
+      <configuration name="HW3_WikipediaAddArticleGamesOfThrone" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HW3_WikipediaAddArticleGamesOfThrone - 2019.01.28 at 17h 32m 50s.xml">
+      <configuration name="HW3_WikipediaAddArticleGamesOfThrone" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HW3_WikipediaAddArticleGamesOfThrone - 2019.01.28 at 17h 33m 51s.xml">
+      <configuration name="HW3_WikipediaAddArticleGamesOfThrone" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30326000" />
+    <option name="totallyTimeSpent" value="31529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="115" y="99" width="335" height="706" id="Project" order="0" visible="true" weight="0.16510066" />
+      <window_info content_ui="combo" x="115" y="99" width="335" height="706" id="Project" order="0" visible="true" weight="0.1671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -411,16 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/LoginWikipediaChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SecondSeleniumProject/src/test/java/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -456,38 +433,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/src/test/java/LoginWikipediaChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HomeWorks/src/test/java/HW_LoginWikipediaChrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
+        <state relative-caret-position="440">
           <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWorks/src/test/java/HW3_WikipediaAddArticleGamesOfThrone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="277">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1839#1840#0" expanded="true" />
           </folding>
         </state>
       </provider>

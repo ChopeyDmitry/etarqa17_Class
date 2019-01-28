@@ -25,18 +25,9 @@ public class HW3_WikipediaAddArticleGamesOfThrone {
         fillLoginForm("oropennyv4110", "oropennyv");
         clickConfirmButton();
         search();
-
-
+        addToWatchlist();
     }
-
-    public void search() {
-        wd.findElement(By.name("search")).click();
-        wd.findElement(By.name("search")).clear();
-        wd.findElement(By.name("search")).sendKeys("Game of Thrones");
-        wd.findElement(By.
-
-    }
-
+    
     @AfterClass
     public void tearDown(){
 
@@ -56,14 +47,28 @@ public class HW3_WikipediaAddArticleGamesOfThrone {
     }
 
     public void clickOnLoginButton() {
+
         wd.findElement(By.id("pt-login")).click();
     }
 
     public void changeLanguage() {
-        wd.findElement(By.id("js-link-box-en")).click();
+
+      wd.findElement(By.id("js-link-box-en")).click();
     }
 
     public void openSite(String url) {
         wd.get(url);
+    }
+
+    private void addToWatchlist() {
+        wd.findElement(By.id("ca-watch")).click();
+//        wd.findElement(By.id("ooui-php-3")).click();
+    }
+
+    public void search() {
+        wd.findElement(By.name("search")).click();
+        wd.findElement(By.name("search")).clear();
+        wd.findElement(By.name("search")).sendKeys("Game of Thrones");
+        wd.findElement(By.name("go")).click();
     }
 }
