@@ -65,6 +65,7 @@ public class TestBase {
     }
 
     public void clickOnAvatar() {
+        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         wd.findElement(By.cssSelector("img.member-avatar")).click();
     }
 
