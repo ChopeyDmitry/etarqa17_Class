@@ -18,22 +18,34 @@ public class TestBase {
         openSite("https://trello.com/");
     }
 
-    public void clickOnLoginButton() {
-        wd.findElement(By.className("header-button-secondary")).click();
+    protected void clickOnLoginButton() {
+        click(By.className("header-button-secondary"));
     }
 
-    public void confirmLogin() {
-        wd.findElement(By.id("login")).click();
+    private void click(By locator) {
+        wd.findElement(locator).click();
     }
 
-    public void fillLoginForm() {
-        wd.findElement(By.cssSelector("input[type=email]")).click();
-        wd.findElement(By.cssSelector("input[type=email]")).clear();
-        wd.findElement(By.cssSelector("input[type=email]")).sendKeys("elena.telran@yahoo.com");
+    protected void confirmLogin() {
+        click(By.id("login"));
+    }
 
-        wd.findElement(By.cssSelector("input[type=password]")).click();
-        wd.findElement(By.cssSelector("input[type=password]")).clear();
-        wd.findElement(By.cssSelector("input[type=password]")).sendKeys("12345.com");
+    protected void fillLoginForm(String user, String password) {
+        click(By.cssSelector("input[type=email]"));
+        clear(By.cssSelector("input[type=email]"));
+        type(By.cssSelector("input[type=email]"), user);
+
+        click(By.cssSelector("input[type=password]"));
+        clear(By.cssSelector("input[type=password]"));
+        type(By.cssSelector("input[type=password]"), password);
+    }
+
+    private void type(By locator, String text) {
+        wd.findElement(locator).sendKeys(text);
+    }
+
+    private void clear(By locator) {
+        wd.findElement(locator).clear();
     }
 
     public void openSite(String url) {
@@ -42,7 +54,7 @@ public class TestBase {
 
     public void login(){
         clickOnLoginButton();
-        fillLoginForm();
+        fillLoginForm("elena.telran@yahoo.com", "12345.com");
         confirmLogin();
     }
 
@@ -65,11 +77,10 @@ public class TestBase {
     }
 
     public void clickOnAvatar() {
-        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        wd.findElement(By.cssSelector("img.member-avatar")).click();
+        click(By.cssSelector("img.member-avatar"));
     }
 
     public void clickOnLogOutButton() {
-        wd.findElement(By.cssSelector("a.js-logout")).click();
+        click(By.cssSelector("a.js-logout"));
     }
 }
