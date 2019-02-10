@@ -1,3 +1,6 @@
+package tests;
+
+import manager.ApplicationManager;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
