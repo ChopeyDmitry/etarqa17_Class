@@ -13,7 +13,7 @@ public class LoginTest extends TestBase {
 
 
     @Test
-    public void testLogin() {
+    public void testLogin() throws InterruptedException {
         applicationManager.getSessionHelper().clickOnLoginButton();
         applicationManager.getSessionHelper().fillLoginForm("elena.telran@yahoo.com", "12345.com");
         applicationManager.getSessionHelper().confirmLogin();

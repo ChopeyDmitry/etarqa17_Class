@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LogoutTest extends TestBase {
     @BeforeMethod
-    public void ensurePreconditions() {
+    public void ensurePreconditions() throws InterruptedException {
         if (!applicationManager.getSessionHelper().isUserLogedIn()) {
             applicationManager.getSessionHelper().login();
         }

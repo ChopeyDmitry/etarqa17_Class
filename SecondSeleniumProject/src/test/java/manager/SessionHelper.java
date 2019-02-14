@@ -3,7 +3,7 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SessionHelper extends HelperBase{
+public class SessionHelper extends HelperBase {
     public SessionHelper(WebDriver wd) {
         super(wd);
     }
@@ -16,13 +16,14 @@ public class SessionHelper extends HelperBase{
         click(By.id("login"));
     }
 
-    public void fillLoginForm(String user, String password) {
+    public void fillLoginForm(String user, String password) throws InterruptedException {
+        Thread.sleep(5000);
         type(user, By.cssSelector("input[type=email]"));
         type(password, By.cssSelector("input[type=password]"));
 
     }
 
-    public void login() {
+    public void login() throws InterruptedException {
         clickOnLoginButton();
         fillLoginForm("elena.telran@yahoo.com", "12345.com");
         confirmLogin();

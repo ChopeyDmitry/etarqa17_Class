@@ -3,6 +3,9 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,9 +14,22 @@ public class ApplicationManager {
     BoardHelper boardHelper;
     TeamHelper teamHelper;
     WebDriver wd;
+    String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+
+    }
 
     public void start() {
-        wd = new ChromeDriver();
+//        String browser = BrowserType.CHROME;
+        if(browser.equals(BrowserType.CHROME)) {
+            wd = new ChromeDriver();
+        }else if(browser.equals(BrowserType.FIREFOX)){
+            wd = new FirefoxDriver();
+        } else if(browser.equals(BrowserType.EDGE)){
+            wd = new EdgeDriver();
+        }
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         openSite("https://trello.com/");
@@ -27,7 +43,7 @@ public class ApplicationManager {
     }
 
     public void stop() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         wd.close();
     }
 
@@ -48,6 +64,11 @@ public class ApplicationManager {
     public SessionHelper getSessionHelper() {
         return sessionHelper;
     }
+
+    public void returnToPreviousPage() {
+        wd.navigate().back();
+    }
+
 }
 
     //    public void clickOnHomeButtonOnLeftSidebar() {

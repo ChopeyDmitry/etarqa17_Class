@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TeamCreationTest extends TestBase {
     @BeforeMethod
-    public void ensurePreconditions() {
+    public void ensurePreconditions() throws InterruptedException {
         if (!applicationManager.getSessionHelper().isUserLogedIn()) {
             applicationManager.getSessionHelper().login();
         }
